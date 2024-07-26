@@ -14,10 +14,6 @@ Sectioning Content: The <section> element is used to define sections in a docume
 
 5. Figure and Figcaption Elements:
 Figures and Captions: The <figure> element represents self-contained content, often with an image, and allows you to associate an image with a caption. The <figcaption> element is used to add a caption to the image contained within the <figure>. Example:
-<figure>
-  <img src="" alt="">
-  <figcaption>Image description</figcaption>
-</figure>
 
 6. Emphasis and Strong Importance:
 Emphasis: The <em> element is used to place emphasis on a specific word or phrase.
@@ -25,26 +21,13 @@ Strong Importance: The <strong> element indicates that the text is of strong imp
 
 7. Input Elements:
 Data Collection: The <input> element allows you to collect data from a web form. Like <img> elements, <input> elements are void elements and do not need closing tags. Example:
-<input type="" name="">
 
 8. Forms and Input Names:
 Form Data Submission: For a form's data to be accessed by the location specified in the action attribute, you must give each input a name attribute. This represents the data being submitted. Example:
-<form action="">
-  <input type="" name="">
-</form>
 
 9. Labels and Radio Buttons:
 Labeling Inputs: Nesting radio buttons or checkboxes inside a <label> element allows users to select the input by clicking on the label text. Example:
-<label>
-  <input type="" name="" value="">
-  Option 1
-</label>
 
 10. Fieldset and Legend Elements:
 Grouping Form Inputs: The <fieldset> element is used to group related inputs and labels together in a form, improving the form's structure and accessibility. The <legend> element provides a caption for the content in the <fieldset>, giving users context about the inputs. Example:
-<fieldset>
-  <legend>Choose your favorite cat breed:</legend>
-  <label><input type="radio" name="breed" value="siamese"> Siamese</label>
-  <label><input type="radio" name="breed" value="persian"> Persian</label>
-</fieldset>
 
