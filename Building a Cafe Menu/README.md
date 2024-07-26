@@ -36,7 +36,7 @@ An address paragraph for the cafe.
 ## CSS Styling
 
 ### 1. General Styling
-The background image for the page is set using ```CSSbody { background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); }```.
+The background image for the page is set using ```body { background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); }```.
 A sans-serif font is applied across the page for a clean, modern look.
 Padding and centering are applied to ensure content is well-spaced and visually appealing.
 
@@ -46,10 +46,10 @@ The p.established class is styled with italic font to differentiate it from regu
 
 ### 3. Layout
 The .menu class centers the main content with a fixed width, background color, and padding, providing a visually distinct area for the menu items.
-Images are centered using ```CSSimg { display: block; margin-left: auto; margin-right: auto; }```.
+Images are centered using ```img { display: block; margin-left: auto; margin-right: auto; }```.
 
 ### 4. Link Styling
-To style visited links differently, a pseudo-selector ```CSSa:visited { propertyName: propertyValue; }``` can be used.
+To style visited links differently, a pseudo-selector ```a:visited { propertyName: propertyValue; }``` can be used.
 Additional Notes
 The ```HTML<div>``` element is used primarily for layout purposes, unlike other semantic elements like ```HTML<section>``` and ```HTML<article>```.
 The ```HTML<title>``` element is essential for SEO and displaying the page's title in the browser tab.
