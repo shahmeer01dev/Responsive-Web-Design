@@ -1,10 +1,7 @@
 # Creating a Registration Form with HTML and CSS
 This document provides a detailed guide on setting up a registration form using HTML and CSS, along with explanations of key concepts and attributes.
 
-## HTML Structure
-The HTML structure includes various elements such as form fields, labels, and input types to collect user information. Below is a breakdown of the HTML used:
-
-### Key HTML Concepts
+## Key HTML Concepts
 
 1. Viewport Units (vh):
 The vh unit stands for viewport height and represents 1% of the viewport's height. It's used to make elements responsive to the screen size.
