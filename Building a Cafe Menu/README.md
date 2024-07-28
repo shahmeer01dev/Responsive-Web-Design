@@ -1,7 +1,11 @@
 # Cafe Menu
 
+---
+
 ## Overview
 The "Cafe Menu" project showcases a simple web page for a cafe, listing various coffee and dessert items along with their prices. The page uses basic HTML for structure and CSS for styling.
+
+---
 
 ## HTML Structure
 ### 1. Doctype and Language
@@ -32,6 +36,7 @@ An address paragraph for the cafe.
 ### 4. Use of Semantic Elements
 ```<article>``` elements are used to group related content together, making the structure clear and enhancing accessibility.
 
+---
 
 ## CSS Styling
 
@@ -47,6 +52,9 @@ The p.established class is styled with italic font to differentiate it from regu
 ### 3. Layout
 The .menu class centers the main content with a fixed width, background color, and padding, providing a visually distinct area for the menu items.
 Images are centered using ```img { display: block; margin-left: auto; margin-right: auto; }```.
+
+***
+
 
 ### 4. Link Styling
 To style visited links differently, a pseudo-selector ```a:visited { propertyName: propertyValue; }``` can be used.
