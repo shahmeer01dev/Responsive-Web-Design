@@ -19,11 +19,11 @@ method="post" sends data in the request body, typically for more secure data tra
 Specifies the type of data the input field expects (e.g., text, email, password, etc.).
 Using type="password" allows you to hide the entered text, and you can use the pattern attribute to enforce a specific format.
 
-4.Pattern Attribute:
+4. Pattern Attribute:
 The pattern attribute specifies a regular expression that the input field's value must match.
 Example: pattern="[a-z0-5]{8,}" requires the input to have lowercase letters and numbers, with at least 8 characters.
 
-5.Radio Inputs:
+5. Radio Inputs:
 To ensure only one radio input can be selected at a time, use the same name attribute value for all related radio inputs.
 Example: name="account-type" groups the radio buttons under one selectable option.
 
