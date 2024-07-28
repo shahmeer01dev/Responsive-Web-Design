@@ -53,12 +53,11 @@ The p.established class is styled with italic font to differentiate it from regu
 The .menu class centers the main content with a fixed width, background color, and padding, providing a visually distinct area for the menu items.
 Images are centered using ```img { display: block; margin-left: auto; margin-right: auto; }```.
 
-***
-
-
 ### 4. Link Styling
 To style visited links differently, a pseudo-selector ```a:visited { propertyName: propertyValue; }``` can be used.
 Additional Notes
 The ```<div>``` element is used primarily for layout purposes, unlike other semantic elements like ```<section>``` and ```<article>```.
 The ```<title>``` element is essential for SEO and displaying the page's title in the browser tab.
 Semantic elements like ```<article>```, ```<section>```, and ```<footer>``` enhance the document's accessibility and structure.
+
+***
