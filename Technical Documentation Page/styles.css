@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  background-color: gray;
+}
+
+.logo {
+  flex: 1;
+  max-width: 33.33%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.links {
+  flex: 2;
+  max-width: 66.67%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.nav-link {
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 700) {
+  .section-head{
+    font-size: 20px;
+  }
+}
